@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/coffee.jpg);
+    background-image: url(coffee.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -68,4 +68,5 @@ flex-direction: row;
 justify-content: space-between;
 font-size: larger;
 font-weight: 400;
+
 }
