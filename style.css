@@ -23,7 +23,7 @@ body {
     padding: 0 40px 50px 40px;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ body {
     font-weight: 200;
 }
 
-.bar{
+.bar {
     width: 100%;
     height: 4px;
     background-color: rgb(131, 0, 0);
@@ -53,19 +53,119 @@ body {
 .pieicon {
     width: 50px;
 }
-.coffee{
+
+.coffee {
     font-size: 30px;
     font-weight: 900;
 }
 
-.price{
+.price {
     width: 100%;
 }
 
-.price div{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-font-size: larger;
-font-weight: 400;
+.price div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.vanilla::after {
+    content: ' $5.00 ';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.vanilla::before {
+    content: '$';
+}
+
+.caramel::after {
+    content: '$4.25';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.caramel::before {
+    content: '$';
+}
+
+.spice::before {
+    content: '$';
+}
+
+.spice::after {
+    content: '$4.00';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.haze::before {
+    content: '$';
+}
+
+.haze::after {
+    content: '$5.00';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.mocha::before {
+    content: '$';
+}
+
+.mocha::after {
+    content: '$5.25';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.donut::before {
+    content: '$';
+}
+
+.donut::after {
+    content: '$2.25';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.pie::before {
+    content: '$';
+}
+
+.pie::after {
+    content: '$4.10';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.cake::before {
+    content: '$';
+}
+
+.cake::after {
+    content: '$4.00';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
+}
+
+.roll::before {
+    content: '$';
+}
+
+.roll::after {
+    content: '$5.80';
+    text-decoration-line: line-through;
+    color: red;
+    margin-left: 5px;
 }
